@@ -9,5 +9,4 @@ except ZeroDivisionError:
 else:
     print(f"Результат: {result}")
 finally:
-    file.close()
     print("Программа завершена")
